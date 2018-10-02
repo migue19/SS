@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56C374E8BB84888F15108321 /* Pods_SupremaSalsa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13572D9BA161A3F48E60E809 /* Pods_SupremaSalsa.framework */; };
 		B8CA6D5F2163E9C600E5A3A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CA6D5E2163E9C600E5A3A6 /* AppDelegate.swift */; };
 		B8CA6D612163E9C600E5A3A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CA6D602163E9C600E5A3A6 /* ViewController.swift */; };
 		B8CA6D642163E9C600E5A3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CA6D622163E9C600E5A3A6 /* Main.storyboard */; };
 		B8CA6D662163E9C700E5A3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CA6D652163E9C700E5A3A6 /* Assets.xcassets */; };
 		B8CA6D692163E9C700E5A3A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CA6D672163E9C700E5A3A6 /* LaunchScreen.storyboard */; };
+		B8CA6D712163F9CF00E5A3A6 /* Compras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CA6D702163F9CF00E5A3A6 /* Compras.storyboard */; };
+		B8CA6D732163FDD500E5A3A6 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8CA6D722163FDD500E5A3A6 /* intro.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13572D9BA161A3F48E60E809 /* Pods_SupremaSalsa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremaSalsa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		393125B20A6EF7B6E0FF5865 /* Pods-SupremaSalsa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremaSalsa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupremaSalsa/Pods-SupremaSalsa.debug.xcconfig"; sourceTree = "<group>"; };
 		B8CA6D5B2163E9C500E5A3A6 /* SupremaSalsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupremaSalsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CA6D5E2163E9C600E5A3A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8CA6D602163E9C600E5A3A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		B8CA6D652163E9C700E5A3A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8CA6D682163E9C700E5A3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8CA6D6A2163E9C700E5A3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CA6D702163F9CF00E5A3A6 /* Compras.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Compras.storyboard; sourceTree = "<group>"; };
+		B8CA6D722163FDD500E5A3A6 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
+		C13E4AE5B88C7DE23D656D4C /* Pods-SupremaSalsa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremaSalsa.release.xcconfig"; path = "Pods/Target Support Files/Pods-SupremaSalsa/Pods-SupremaSalsa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C374E8BB84888F15108321 /* Pods_SupremaSalsa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +47,11 @@
 		B8CA6D522163E9C500E5A3A6 = {
 			isa = PBXGroup;
 			children = (
+				B8CA6D722163FDD500E5A3A6 /* intro.mp4 */,
 				B8CA6D5D2163E9C500E5A3A6 /* SupremaSalsa */,
 				B8CA6D5C2163E9C500E5A3A6 /* Products */,
+				E7D7536C5D18E93DA629732F /* Pods */,
+				F0BA2A852C36F61B00ACC795 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +69,29 @@
 				B8CA6D5E2163E9C600E5A3A6 /* AppDelegate.swift */,
 				B8CA6D602163E9C600E5A3A6 /* ViewController.swift */,
 				B8CA6D622163E9C600E5A3A6 /* Main.storyboard */,
+				B8CA6D702163F9CF00E5A3A6 /* Compras.storyboard */,
 				B8CA6D652163E9C700E5A3A6 /* Assets.xcassets */,
 				B8CA6D672163E9C700E5A3A6 /* LaunchScreen.storyboard */,
 				B8CA6D6A2163E9C700E5A3A6 /* Info.plist */,
 			);
 			path = SupremaSalsa;
+			sourceTree = "<group>";
+		};
+		E7D7536C5D18E93DA629732F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393125B20A6EF7B6E0FF5865 /* Pods-SupremaSalsa.debug.xcconfig */,
+				C13E4AE5B88C7DE23D656D4C /* Pods-SupremaSalsa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0BA2A852C36F61B00ACC795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13572D9BA161A3F48E60E809 /* Pods_SupremaSalsa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8CA6D6D2163E9C700E5A3A6 /* Build configuration list for PBXNativeTarget "SupremaSalsa" */;
 			buildPhases = (
+				FEA52C86435E5C050D30B4F2 /* [CP] Check Pods Manifest.lock */,
 				B8CA6D572163E9C500E5A3A6 /* Sources */,
 				B8CA6D582163E9C500E5A3A6 /* Frameworks */,
 				B8CA6D592163E9C500E5A3A6 /* Resources */,
+				8D350FD12AB9AA92E2E3AF69 /* [CP] Embed Pods Frameworks */,
+				1CE4032632BA395B0B233CC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +156,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8CA6D692163E9C700E5A3A6 /* LaunchScreen.storyboard in Resources */,
+				B8CA6D732163FDD500E5A3A6 /* intro.mp4 in Resources */,
 				B8CA6D662163E9C700E5A3A6 /* Assets.xcassets in Resources */,
+				B8CA6D712163F9CF00E5A3A6 /* Compras.storyboard in Resources */,
 				B8CA6D642163E9C600E5A3A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CE4032632BA395B0B233CC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupremaSalsa/Pods-SupremaSalsa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D350FD12AB9AA92E2E3AF69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SupremaSalsa/Pods-SupremaSalsa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupremaSalsa/Pods-SupremaSalsa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA52C86435E5C050D30B4F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupremaSalsa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8CA6D572163E9C500E5A3A6 /* Sources */ = {
@@ -280,6 +373,7 @@
 		};
 		B8CA6D6E2163E9C700E5A3A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393125B20A6EF7B6E0FF5865 /* Pods-SupremaSalsa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +392,7 @@
 		};
 		B8CA6D6F2163E9C700E5A3A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13E4AE5B88C7DE23D656D4C /* Pods-SupremaSalsa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
