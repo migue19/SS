@@ -23,6 +23,7 @@ struct dataFacebook {
 class ViewController: UIViewController,FBSDKLoginButtonDelegate {
     @IBOutlet var fondo: UIView!
     @IBOutlet weak var loginButton: FBSDKLoginButton!
+    var data : dataFacebook?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +42,8 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate {
         loginButton.delegate = self
         
     }
+    
+    
 
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
@@ -98,16 +101,37 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate {
                 
                 if let jsonResult = result! as? Dictionary<String, AnyObject> {
                 
-                    let data =   dataFacebook(name: jsonResult["name"] as? String, lastname: jsonResult["last_name"] as? String, firstName: jsonResult["first_name"] as? String, email: jsonResult["email"] as? String, idFacebook: jsonResult["id"] as! String)
+                    self.data =   dataFacebook(name: jsonResult["name"] as? String, lastname: jsonResult["last_name"] as? String, firstName: jsonResult["first_name"] as? String, email: jsonResult["email"] as? String, idFacebook: jsonResult["id"] as! String)
                     
-                    print("data: \(data.name!)")
+                    //print("data: \(self.data?.name!)")
+                    
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                        self.performSegue(withIdentifier: "ir_registro", sender: self)
+                    })
+                    
+                
                     
                 }
                 
-                self.performSegue(withIdentifier: "ir_perfil", sender: self)
+                
+                
             }
         })
     }
+    
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "ir_registro") {
+            
+            let envio = segue.destination as! RegistroViewController
+            envio.data = self.data
+            
+        }
+    }
+    
     
     
     

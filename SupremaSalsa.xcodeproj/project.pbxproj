@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56C374E8BB84888F15108321 /* Pods_SupremaSalsa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13572D9BA161A3F48E60E809 /* Pods_SupremaSalsa.framework */; };
+		B88DBC75216446B20067CC20 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DBC74216446B20067CC20 /* RegistroViewController.swift */; };
 		B8CA6D5F2163E9C600E5A3A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CA6D5E2163E9C600E5A3A6 /* AppDelegate.swift */; };
 		B8CA6D612163E9C600E5A3A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CA6D602163E9C600E5A3A6 /* ViewController.swift */; };
 		B8CA6D642163E9C600E5A3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CA6D622163E9C600E5A3A6 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		13572D9BA161A3F48E60E809 /* Pods_SupremaSalsa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupremaSalsa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		393125B20A6EF7B6E0FF5865 /* Pods-SupremaSalsa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupremaSalsa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupremaSalsa/Pods-SupremaSalsa.debug.xcconfig"; sourceTree = "<group>"; };
+		B88DBC74216446B20067CC20 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		B8CA6D5B2163E9C500E5A3A6 /* SupremaSalsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupremaSalsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CA6D5E2163E9C600E5A3A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8CA6D602163E9C600E5A3A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				B8CA6D5E2163E9C600E5A3A6 /* AppDelegate.swift */,
 				B8CA6D602163E9C600E5A3A6 /* ViewController.swift */,
+				B88DBC74216446B20067CC20 /* RegistroViewController.swift */,
 				B8CA6D622163E9C600E5A3A6 /* Main.storyboard */,
 				B8CA6D702163F9CF00E5A3A6 /* Compras.storyboard */,
 				B8CA6D652163E9C700E5A3A6 /* Assets.xcassets */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8CA6D612163E9C600E5A3A6 /* ViewController.swift in Sources */,
+				B88DBC75216446B20067CC20 /* RegistroViewController.swift in Sources */,
 				B8CA6D5F2163E9C600E5A3A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
